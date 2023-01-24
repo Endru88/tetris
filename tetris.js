@@ -113,7 +113,7 @@ function rotateMatrix(matrix, dir) {
     return newMatrix;
 }
 
-//poslední nejvyšší úroveň v aréně
+//poslední nejvyšší úroveň v aréně, díklů, okraje
 function collides(player, arena) {
     for (let i = 0; i < player.matrix.length; i++) {
         for (let j = 0; j < player.matrix[i].length; j++) {
