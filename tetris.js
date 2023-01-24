@@ -187,7 +187,7 @@ function drawArena() {
     }
 }
 
-//vykreslení array + vygenerovaný dílkem
+//vykreslení array 
 function initArena() {
     arena = [];
 
